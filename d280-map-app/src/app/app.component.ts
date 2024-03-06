@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'd280-map-app';
+  selectedCountry: any = null;
+  displayCountryInfo(countryData: any): void {
+    this.selectedCountry = countryData;
+  }
 }
