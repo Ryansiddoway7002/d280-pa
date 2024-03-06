@@ -60,7 +60,7 @@
               "buildTarget": "d280-map-app:build:production"
             },
             "development": {
-              "buildTarget": "280-map-app:build:development"
+              "buildTarget": "d280-map-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "280-map-app:build"
+            "buildTarget": "d280-map-app:build"
           }
         },
         "test": {
